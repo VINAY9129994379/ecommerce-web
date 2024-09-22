@@ -1,0 +1,44 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #34495e;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin {
+  flex: 1; /* Take up the remaining height */
+  display: flex;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navprofile {
+  display: flex;
+  align-items: center;
+}
+
+.nav-profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
